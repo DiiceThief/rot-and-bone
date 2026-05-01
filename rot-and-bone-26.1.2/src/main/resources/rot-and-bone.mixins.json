@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.tinydiicethief.diicesdastardlydead.mixin",
+	"package": "net.tinydiicethief.rot_and_bone.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin"

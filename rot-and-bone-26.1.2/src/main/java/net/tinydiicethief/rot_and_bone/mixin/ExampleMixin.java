@@ -1,4 +1,4 @@
-package net.tinydiicethief.diicesdastardlydead.mixin;
+package net.tinydiicethief.rot_and_bone.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
