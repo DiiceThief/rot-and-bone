@@ -1,4 +1,4 @@
-package net.tinydiicethief.rot_and_bone;
+package net.tinydiicethief.rot_and_bone.item;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
@@ -6,6 +6,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
+import net.tinydiicethief.rot_and_bone.RotAndBone;
 
 public class ModToolMaterials {
     public static final TagKey<Item> REPAIRS_ROTTING_BONE_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(),

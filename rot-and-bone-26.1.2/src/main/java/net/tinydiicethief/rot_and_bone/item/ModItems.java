@@ -1,4 +1,4 @@
-package net.tinydiicethief.rot_and_bone;
+package net.tinydiicethief.rot_and_bone.item;
 
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -6,6 +6,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
+import net.tinydiicethief.rot_and_bone.RotAndBone;
 
 import java.util.function.Function;
 
