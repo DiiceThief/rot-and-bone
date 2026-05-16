@@ -7,8 +7,8 @@ import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
 
-public class ModModelGenerator extends FabricModelProvider {
-    public ModModelGenerator(FabricPackOutput output) {
+public class ModModelProvider extends FabricModelProvider {
+    public ModModelProvider(FabricPackOutput output) {
         super(output);
     }
 

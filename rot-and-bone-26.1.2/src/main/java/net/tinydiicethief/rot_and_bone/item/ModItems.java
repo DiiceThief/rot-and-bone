@@ -11,6 +11,10 @@ import net.tinydiicethief.rot_and_bone.RotAndBone;
 import java.util.function.Function;
 
 public class ModItems {
+
+    //initializer
+    public static void initialize() {}
+
     public static <T extends Item> T
     register(String name, Function<Item.Properties, T> itemFactory, Item.Properties settings) {
 

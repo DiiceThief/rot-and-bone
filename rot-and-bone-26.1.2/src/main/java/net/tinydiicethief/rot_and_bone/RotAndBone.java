@@ -2,6 +2,7 @@ package net.tinydiicethief.rot_and_bone;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tinydiicethief.rot_and_bone.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,8 @@ public class RotAndBone implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		LOGGER.info("Testing Message");
+		ModItems.initialize();
 	}
 }
