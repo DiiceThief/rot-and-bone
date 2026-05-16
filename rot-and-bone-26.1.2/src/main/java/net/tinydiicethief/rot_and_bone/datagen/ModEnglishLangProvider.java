@@ -15,5 +15,6 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(HolderLookup.Provider registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.ROTTING_BONE_SICKLE, "Rotting Bone Sickle");
+        translationBuilder.add(ModItems.ROTTING_BONE, "Rotting Bone");
     }
 }

@@ -30,4 +30,6 @@ public class ModItems {
     public static final Item ROTTING_BONE_SICKLE = register("rotting_bone_sickle",
             Item::new, new Item.Properties().sword(ModToolMaterials.ROTTING_BONE_MATERIAL,
                     4.5F, -2.8F));
+
+    public static final Item ROTTING_BONE = register("rotting_bone", Item::new, new Item.Properties());
 }
