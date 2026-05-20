@@ -29,6 +29,11 @@ public class ModItemGroups {
 
                 //Blocks
                 output.accept(ModBlocks.GRAVESOIL);
+                output.accept(ModBlocks.GRAVEBRICKS);
+                output.accept(ModBlocks.GRAVEBRICK_STAIRS);
+                output.accept(ModBlocks.GRAVEBRICK_SLAB);
+                output.accept(ModBlocks.GRAVEBRICK_WALL);
+                output.accept(ModBlocks.CHISELED_GRAVEBRICKS);
             })
             .build();
 }
