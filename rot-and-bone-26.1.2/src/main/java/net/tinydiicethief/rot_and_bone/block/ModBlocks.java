@@ -45,4 +45,12 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.ROOTED_DIRT),
             true);
+    public static final Block GRAVEBRICKS = register("gravebricks",
+            Block::new,
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            true);
+    public static final Block CHISELED_GRAVEBRICKS = register("chiseled_gravebricks",
+            Block::new,
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            true);
 }
