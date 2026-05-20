@@ -3,6 +3,7 @@ package net.tinydiicethief.rot_and_bone;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.tinydiicethief.rot_and_bone.block.ModBlockFamilies;
 import net.tinydiicethief.rot_and_bone.block.ModBlocks;
 import net.tinydiicethief.rot_and_bone.item.ModItemGroups;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
@@ -19,6 +20,7 @@ public class RotAndBone implements ModInitializer {
 		ModItems.initialize();
 		ModBlocks.initialize();
 		ModItemGroups.initialize();
+		ModBlockFamilies.initialize();
 
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
 				ModItemGroups.ROT_AND_BONE_TAB_KEY, ModItemGroups.ROT_AND_BONE_TAB);

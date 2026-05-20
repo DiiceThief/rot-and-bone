@@ -6,6 +6,7 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.BlockFamily;
+import net.tinydiicethief.rot_and_bone.block.ModBlockFamilies;
 import net.tinydiicethief.rot_and_bone.block.ModBlocks;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
 
@@ -18,7 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.GRAVESOIL);
 
-        blockModelGenerators.family(ModBlocks.GRAVEBRICKS).generateFor(ModBlocks.GRAVEBRICK_FAMILY);
+        blockModelGenerators.family(ModBlocks.GRAVEBRICKS).generateFor(ModBlockFamilies.GRAVEBRICK_FAMILY);
 
     }
 
