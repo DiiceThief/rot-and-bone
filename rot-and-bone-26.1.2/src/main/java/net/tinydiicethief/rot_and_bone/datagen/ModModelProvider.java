@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.GRAVESOIL);
 
         blockModelGenerators.family(ModBlocks.GRAVEBRICKS).generateFor(ModBlockFamilies.GRAVEBRICK_FAMILY);
+        blockModelGenerators.family(ModBlocks.CRACKED_GRAVEBRICKS)
+                .generateFor(ModBlockFamilies.CRACKED_GRAVEBRICK_FAMILY);
 
     }
 

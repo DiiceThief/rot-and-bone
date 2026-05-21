@@ -23,11 +23,17 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
 
         //block translations
         translationBuilder.add(ModBlocks.GRAVESOIL, "Gravesoil");
+
         translationBuilder.add(ModBlocks.GRAVEBRICKS, "Gravebricks");
         translationBuilder.add(ModBlocks.GRAVEBRICK_STAIRS, "Gravebrick Stairs");
         translationBuilder.add(ModBlocks.GRAVEBRICK_SLAB, "Gravebrick Slab");
         translationBuilder.add(ModBlocks.GRAVEBRICK_WALL, "Gravebrick Wall");
         translationBuilder.add(ModBlocks.CHISELED_GRAVEBRICKS, "Chiseled Gravebricks");
+
+        translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICKS, "Cracked Gravebricks");
+        translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICK_STAIRS, "Cracked Gravebrick Stairs");
+        translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICK_SLAB, "Cracked Gravebrick Slab");
+        translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICK_WALL, "Cracked Gravebrick Wall");
 
         //creative mode tab
         translationBuilder.add(ModItemGroups.ROT_AND_BONE_TAB_KEY, "Rot And Bone");
