@@ -29,6 +29,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.ROTTING_BONE_SICKLE, ModelTemplates.FLAT_HANDHELD_ITEM);
 
         itemModelGenerators.generateFlatItem(ModItems.ROTTING_BONE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.BRITTLE_FLESH, ModelTemplates.FLAT_ITEM);
     }
 
     @Override

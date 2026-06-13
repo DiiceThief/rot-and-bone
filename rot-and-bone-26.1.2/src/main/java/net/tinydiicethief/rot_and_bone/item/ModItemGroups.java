@@ -25,6 +25,7 @@ public class ModItemGroups {
 
                 //Items
                 output.accept(ModItems.ROTTING_BONE);
+                output.accept(ModItems.BRITTLE_FLESH);
                 output.accept(ModItems.ROTTING_BONE_SICKLE);
 
                 //Blocks
