@@ -10,12 +10,14 @@ import net.tinydiicethief.rot_and_bone.item.ModItems;
 import java.util.concurrent.CompletableFuture;
 
 public class ModEnglishLangProvider extends FabricLanguageProvider {
-    public ModEnglishLangProvider(FabricPackOutput packOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
+    public ModEnglishLangProvider(FabricPackOutput packOutput,
+                                  CompletableFuture<HolderLookup.Provider> registryLookup) {
         super(packOutput, registryLookup);
     }
 
     @Override
-    public void generateTranslations(HolderLookup.Provider registryLookup, TranslationBuilder translationBuilder) {
+    public void generateTranslations(HolderLookup.Provider registryLookup,
+                                     TranslationBuilder translationBuilder) {
 
         //item translations
         translationBuilder.add(ModItems.ROTTING_BONE_SICKLE, "Rotting Bone Sickle");
