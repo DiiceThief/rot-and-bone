@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rotting_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rot-and-bone:rotting_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rot-and-bone:rotting_bone_sickle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rotting_bone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rot-and-bone:rotting_bone_sickle"
+    ]
+  }
+}

@@ -4,9 +4,12 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.tinydiicethief.rot_and_bone.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -23,6 +26,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             @Override
             public void buildRecipes() {
                 HolderLookup.RegistryLookup<Item> itemLookup = registries.lookupOrThrow(Registries.ITEM);
+
+                shaped(RecipeCategory.COMBAT, ModItems.ROTTING_BONE_SICKLE, 1)
+                        .pattern("##")
+                        .pattern(" S")
+                        .pattern(" S")
+                        .define('#', ModItems.ROTTING_BONE)
+                        .define('S', Items.STICK)
+                        .group("multi_bench")
+                        .unlockedBy(getHasName(ModItems.ROTTING_BONE), has(ModItems.ROTTING_BONE))
+                        .save(output);
             }
         };
     }

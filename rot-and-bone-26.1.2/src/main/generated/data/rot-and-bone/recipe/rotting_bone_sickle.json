@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "multi_bench",
+  "key": {
+    "#": "rot-and-bone:rotting_bone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "##",
+    " S",
+    " S"
+  ],
+  "result": {
+    "id": "rot-and-bone:rotting_bone_sickle"
+  }
+}
