@@ -32,5 +32,5 @@ public class ModItems {
                     4.5F, -2.8F));
 
     public static final Item ROTTING_BONE = register("rotting_bone", Item::new, new Item.Properties());
-    public static final Item BRITTLE_FLESH = register("britt_flesh", Item::new, new Item.Properties());
+    public static final Item BRITTLE_FLESH = register("brittle_flesh", Item::new, new Item.Properties());
 }
