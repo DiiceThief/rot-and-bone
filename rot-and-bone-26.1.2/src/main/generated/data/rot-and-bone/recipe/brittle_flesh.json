@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:rotten_flesh",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "rot-and-bone:brittle_flesh"
+  }
+}

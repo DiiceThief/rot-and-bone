@@ -27,6 +27,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
                 HolderLookup.RegistryLookup<Item> itemLookup = registries.lookupOrThrow(Registries.ITEM);
 
+                //Shaped Recipe List
                 shaped(RecipeCategory.COMBAT, ModItems.ROTTING_BONE_SICKLE, 1)
                         .pattern("##")
                         .pattern(" S")
@@ -35,6 +36,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('S', Items.STICK)
                         .group("multi_bench")
                         .unlockedBy(getHasName(ModItems.ROTTING_BONE), has(ModItems.ROTTING_BONE))
+                        .save(output);
+
+                //Shapeless Recipe List
+                shapeless(RecipeCategory.MISC, ModItems.BRITTLE_FLESH)
+                        .requires(Items.ROTTEN_FLESH)
+                        .requires(Items.BONE_MEAL)
+                        .unlockedBy(getHasName(Items.BONE_MEAL), has(Items.BONE_MEAL))
+                        .unlockedBy(getHasName(Items.ROTTEN_FLESH), has(Items.ROTTEN_FLESH))
+                        .save(output);
+                shapeless(RecipeCategory.MISC, ModItems.ROTTING_BONE)
+                        .requires(Items.BONE)
+                        .requires(Items.ROTTEN_FLESH)
+                        .unlockedBy(getHasName(Items.BONE), has(Items.BONE))
+                        .unlockedBy(getHasName(Items.ROTTEN_FLESH), has(Items.ROTTEN_FLESH))
                         .save(output);
             }
         };
