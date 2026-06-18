@@ -27,10 +27,18 @@ public class ModItems {
 
         return item;
     }
+    //sickles
     public static final Item ROTTING_BONE_SICKLE = register("rotting_bone_sickle",
             Item::new, new Item.Properties().sword(ModToolMaterials.ROTTING_BONE_MATERIAL,
                     4.5F, -2.8F));
 
-    public static final Item ROTTING_BONE = register("rotting_bone", Item::new, new Item.Properties());
-    public static final Item BRITTLE_FLESH = register("brittle_flesh", Item::new, new Item.Properties());
+    //spell materials
+    public static final Item ROTTING_BONE = register("rotting_bone",
+            Item::new, new Item.Properties());
+    public static final Item BRITTLE_FLESH = register("brittle_flesh",
+            Item::new, new Item.Properties());
+
+    //catalysts
+    public static final Item SIMPLE_CATALYST = register("simple_catalyst",
+            Item::new, new Item.Properties());
 }

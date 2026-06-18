@@ -37,6 +37,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("multi_bench")
                         .unlockedBy(getHasName(ModItems.ROTTING_BONE), has(ModItems.ROTTING_BONE))
                         .save(output);
+                shaped(RecipeCategory.COMBAT, ModItems.SIMPLE_CATALYST, 1)
+                        .pattern("#")
+                        .pattern("S")
+                        .pattern("S")
+                        .define('#', Items.DIAMOND)
+                        .define('S', Items.STICK)
+                        .group("multi_bench")
+                        .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                        .save(output);
 
                 //Shapeless Recipe List
                 shapeless(RecipeCategory.MISC, ModItems.BRITTLE_FLESH)

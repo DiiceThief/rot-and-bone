@@ -26,7 +26,12 @@ public class ModItemGroups {
                 //Items
                 output.accept(ModItems.ROTTING_BONE);
                 output.accept(ModItems.BRITTLE_FLESH);
+
+                //sickles
                 output.accept(ModItems.ROTTING_BONE_SICKLE);
+
+                //catalysts
+                output.accept(ModItems.SIMPLE_CATALYST);
 
                 //Blocks
                 output.accept(ModBlocks.GRAVESOIL);
