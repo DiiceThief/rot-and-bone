@@ -1,9 +1,16 @@
 {
 	"schemaVersion": 1,
 	"id": "rot-and-bone",
+
+	"custom": {
+		"cardinal-components": [
+			"RotAndBone:MagicData"
+		]
+	},
+
 	"version": "${version}",
 	"name": "Rot And Bone",
-	"description": "A mod about expanding the undead of Minecraft.",
+	"description": "A mod about expanding the undead and magic of Minecraft.",
 	"authors": [
 		"TinyDiiceThief"
 	],
