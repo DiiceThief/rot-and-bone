@@ -5,8 +5,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.tinydiicethief.rot_and_bone.block.ModBlockFamilies;
 import net.tinydiicethief.rot_and_bone.block.ModBlocks;
-import net.tinydiicethief.rot_and_bone.component.ComponentInterface;
-import net.tinydiicethief.rot_and_bone.focus.MagicData;
+import net.tinydiicethief.rot_and_bone.component.MagicData;
 import net.tinydiicethief.rot_and_bone.item.ModItemGroups;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
 import net.tinydiicethief.rot_and_bone.item.custom.CatalystItem;
@@ -27,9 +26,6 @@ public class RotAndBone implements ModInitializer {
 		ModBlockFamilies.initialize();
 		CatalystItem.initialize();
 		MagicData.initialize();
-
-		//interfaces
-		ComponentInterface.initialize();
 
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
 				ModItemGroups.ROT_AND_BONE_TAB_KEY, ModItemGroups.ROT_AND_BONE_TAB);
