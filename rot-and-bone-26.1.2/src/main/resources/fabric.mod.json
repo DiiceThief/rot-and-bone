@@ -29,7 +29,7 @@
 			"net.tinydiicethief.rot_and_bone.RotAndBoneDataGenerator"
 		],
 		"cardinal-components": [
-			"net.tinydiicethief.rot_and_bone.component.MagicData"
+			"net.tinydiicethief.rot_and_bone.component.ModComponentRegistry"
 		]
 	},
 	"mixins": [
