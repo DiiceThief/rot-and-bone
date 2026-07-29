@@ -5,8 +5,8 @@ import org.ladysnake.cca.api.v3.component.ComponentKey;
 import org.ladysnake.cca.api.v3.component.ComponentRegistry;
 
 public class ModComponentRegistry {
-    public static final ComponentKey<FocusAndClarity> FOCUS_AND_CLARITY =
+    public static final ComponentKey<CorruptionComponent> CORRUPTION_COMPONENT_KEY =
             ComponentRegistry.getOrCreate
-                    (Identifier.fromNamespaceAndPath("rotandbone", "focusandclarity"),
-                            FocusAndClarity.class);
+                    (Identifier.fromNamespaceAndPath("rotandbone", "corruptionComponent"),
+                            CorruptionComponent.class);
 }

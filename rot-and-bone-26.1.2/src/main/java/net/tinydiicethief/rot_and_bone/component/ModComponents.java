@@ -5,10 +5,12 @@ import org.ladysnake.cca.api.v3.entity.EntityComponentFactoryRegistry;
 import org.ladysnake.cca.api.v3.entity.EntityComponentInitializer;
 
 public final class ModComponents implements EntityComponentInitializer {
-    public static final ComponentKey<FocusAndClarity> FOCUS_AND_CLARITY =
+    public static final ComponentKey<CorruptionComponent> CORRUPTION =
 
     @Override
-    public void registerEntityComponentFactories(EntityComponentFactoryRegistry registry) {
-        registry.registerFor(FOCUS_AND_CLARITY,);
+    public void registerEntityComponentFactories(
+            EntityComponentFactoryRegistry entityComponentFactoryRegistry) {
+        entityComponentFactoryRegistry.registerForPlayers(
+                CORRUPTION, PlayerIntComponent::new);
     }
 }
