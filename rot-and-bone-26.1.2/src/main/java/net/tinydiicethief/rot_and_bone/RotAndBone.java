@@ -25,7 +25,6 @@ public class RotAndBone implements ModInitializer {
 		ModItemGroups.initialize();
 		ModBlockFamilies.initialize();
 		CatalystItem.initialize();
-		CorruptionComponent.initialize();
 
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
 				ModItemGroups.ROT_AND_BONE_TAB_KEY, ModItemGroups.ROT_AND_BONE_TAB);
