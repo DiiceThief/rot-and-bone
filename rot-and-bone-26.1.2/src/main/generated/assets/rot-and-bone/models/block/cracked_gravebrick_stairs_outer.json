@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "rot-and-bone:block/cracked_gravebricks",
-    "side": "rot-and-bone:block/cracked_gravebricks",
-    "top": "rot-and-bone:block/cracked_gravebricks"
-  }
-}

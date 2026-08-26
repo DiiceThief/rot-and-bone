@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rot-and-bone:brittle_flesh"
+        "recipe": "rot_and_bone:brittle_flesh"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rot-and-bone:brittle_flesh"
+      "rot_and_bone:brittle_flesh"
     ]
   }
 }

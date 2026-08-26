@@ -3,7 +3,7 @@
   "category": "equipment",
   "group": "multi_bench",
   "key": {
-    "#": "rot-and-bone:rotting_bone",
+    "#": "rot_and_bone:rotting_bone",
     "S": "minecraft:stick"
   },
   "pattern": [
@@ -12,6 +12,6 @@
     " S"
   ],
   "result": {
-    "id": "rot-and-bone:rotting_bone_sickle"
+    "id": "rot_and_bone:rotting_bone_sickle"
   }
 }

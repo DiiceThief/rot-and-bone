@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rot-and-bone:rotting_bone"
+        "recipe": "rot_and_bone:rotting_bone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rot-and-bone:rotting_bone"
+      "rot_and_bone:rotting_bone"
     ]
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "rot-and-bone:rotting_bone"
+            "items": "rot_and_bone:rotting_bone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rot-and-bone:rotting_bone_sickle"
+        "recipe": "rot_and_bone:rotting_bone_sickle"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rot-and-bone:rotting_bone_sickle"
+      "rot_and_bone:rotting_bone_sickle"
     ]
   }
 }
