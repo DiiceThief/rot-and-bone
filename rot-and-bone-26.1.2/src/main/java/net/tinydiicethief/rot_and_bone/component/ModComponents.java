@@ -8,9 +8,9 @@ import org.ladysnake.cca.api.v3.entity.EntityComponentFactoryRegistry;
 import org.ladysnake.cca.api.v3.entity.EntityComponentInitializer;
 
 public final class ModComponents implements EntityComponentInitializer {
-    public static final ComponentKey<CorruptionComponent> CORRUPTION =
+    public static final ComponentKey<corruptioncomponent> CORRUPTION =
             ComponentRegistry.getOrCreate(Identifier.fromNamespaceAndPath(
-                    RotAndBone.MOD_ID, "corruption"), CorruptionComponent.class);
+                    RotAndBone.MOD_ID, "corruption"), corruptioncomponent.class);
 
     @Override
     public void registerEntityComponentFactories(
