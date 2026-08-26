@@ -7,6 +7,6 @@ import org.ladysnake.cca.api.v3.component.ComponentRegistry;
 public class ModComponentRegistry {
     public static final ComponentKey<corruptioncomponent> CORRUPTION_COMPONENT_KEY =
             ComponentRegistry.getOrCreate
-                    (Identifier.fromNamespaceAndPath("rotandbone", "corruptionComponent"),
+                    (Identifier.fromNamespaceAndPath("rotandbone", "corruptioncomponent"),
                             corruptioncomponent.class);
 }

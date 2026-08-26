@@ -4,13 +4,13 @@
 
 	"custom": {
 		"cardinal-components": [
-			"rot_and_bone:corruptioncomponent"
+			"rotandbone:corruptioncomponent"
 		]
 	},
 
 	"version": "${version}",
 	"name": "Rot And Bone",
-	"description": "A mod about expanding the undead and magic of Minecraft.",
+	"description": "A mod about expanding the undead and magic of Minecraft. Mostly cause I felt like it.",
 	"authors": [
 		"TinyDiiceThief"
 	],
