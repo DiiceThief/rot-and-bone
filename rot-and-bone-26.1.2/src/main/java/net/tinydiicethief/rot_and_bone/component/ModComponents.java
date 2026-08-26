@@ -15,6 +15,5 @@ public final class ModComponents implements EntityComponentInitializer {
     @Override
     public void registerEntityComponentFactories(
             EntityComponentFactoryRegistry registry) {
-        registry.registerForPlayers(CORRUPTION, it -> PlayerIntComponent);
     }
 }

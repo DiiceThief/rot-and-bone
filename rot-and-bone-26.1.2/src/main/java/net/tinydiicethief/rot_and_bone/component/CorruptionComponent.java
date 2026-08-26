@@ -11,41 +11,31 @@ public class CorruptionComponent implements CardinalComponent {
     private int overflowTimer = 0;
     private static final int MAX = 100;
 
-    @Override
     public int getCorruption() {
         return corruption;
     }
 
-    @Override
     public int getMaxCorruption() {
         return MAX;
     }
 
-    @Override
     public void addCorruption(int amount) {
         corruption += amount;
     }
 
-    @Override
     public void removeCorruption(int amount) {
         corruption = Math.max(0, corruption - amount);
     }
 
-    @Override
     public boolean isOverflowing() {
         return corruption > MAX;
     }
 
-    @Override
     public void tick(ServerPlayer player) {
-        if(player.age % 100 == 0) {
-            removeCorruption(1);
-        }
 
         if(isOverflowing()) {
             overflowTimer++;
-            if(overflowTimer > overflowTimer >= 200) {
-                spawnSpirit(player);
+            if(overflowTimer >= 200) {
 
                 overflowTimer = 0;
             }
