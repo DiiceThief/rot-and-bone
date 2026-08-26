@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rot_and_bone:block/cracked_gravebrick_slab"
+    },
+    "type=double": {
+      "model": "rot_and_bone:block/cracked_gravebricks"
+    },
+    "type=top": {
+      "model": "rot_and_bone:block/cracked_gravebrick_slab_top"
+    }
+  }
+}

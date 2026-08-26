@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rot_and_bone:block/cracked_gravebricks",
+    "side": "rot_and_bone:block/cracked_gravebricks",
+    "top": "rot_and_bone:block/cracked_gravebricks"
+  }
+}

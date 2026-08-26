@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rot_and_bone:block/gravebrick_slab"
+    },
+    "type=double": {
+      "model": "rot_and_bone:block/gravebricks"
+    },
+    "type=top": {
+      "model": "rot_and_bone:block/gravebrick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "rot_and_bone:item/rotting_bone_sickle"
+  }
+}
