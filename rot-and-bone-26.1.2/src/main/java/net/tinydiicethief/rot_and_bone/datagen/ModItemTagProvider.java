@@ -21,12 +21,18 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(SICKLES)
                 .add(ModItems.ROTTING_BONE_SICKLE)
                 .setReplace(true);
+
+        valueLookupBuilder(DECAYED_ITEMS)
+                .add(ModItems.BRITTLE_FLESH)
+                .add(ModItems.ROTTING_BONE)
+                .setReplace(true);
     }
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-
     }
     public static final TagKey<Item> SICKLES = TagKey.create(Registries.ITEM,
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "sickles"));
+    public static final TagKey<Item> DECAYED_ITEMS = TagKey.create(Registries.ITEM,
+            Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "decayed_items"));
 }
