@@ -31,13 +31,20 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(DECAYED_ITEMS)
                 .add(ModItems.BRITTLE_FLESH)
                 .add(ModItems.ROTTING_BONE)
-                .setReplace(true);}
+                .setReplace(true);
+
+        valueLookupBuilder(CATALYSTS)
+                .add(ModItems.SIMPLE_CATALYST)
+                .setReplace(true);
+    }
 
     //mod specific tags
     public static final TagKey<Item> SICKLES = TagKey.create(Registries.ITEM,
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "sickles"));
     public static final TagKey<Item> DECAYED_ITEMS = TagKey.create(Registries.ITEM,
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "decayed_items"));
+    public static final TagKey<Item> CATALYSTS = TagKey.create(Registries.ITEM,
+            Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "catalysts"));
 
     public static final TagKey<Item> REPAIRS_ROTTING_BONE_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(),
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "repairs_rotting_bone_armor"));
