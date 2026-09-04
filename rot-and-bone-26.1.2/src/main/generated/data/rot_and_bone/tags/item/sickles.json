@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
-    "rot_and_bone:rotting_bone_sickle"
+    "rot_and_bone:rotting_bone_sickle",
+    "rot_and_bone:grave_steel_sickel"
   ]
 }

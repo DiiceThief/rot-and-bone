@@ -26,13 +26,22 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
+        //sickles
         itemModelGenerators.generateFlatItem(ModItems.ROTTING_BONE_SICKLE,
                 ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.GRAVE_STEEL_SICKLE,
+                ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        //catalysts
         itemModelGenerators.generateFlatItem(ModItems.SIMPLE_CATALYST,
                 ModelTemplates.FLAT_HANDHELD_ITEM);
 
+        //spell materials
         itemModelGenerators.generateFlatItem(ModItems.ROTTING_BONE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BRITTLE_FLESH, ModelTemplates.FLAT_ITEM);
+
+        //non spell materials
+        itemModelGenerators.generateFlatItem(ModItems.GRAVE_STEEL_INGOT, ModelTemplates.FLAT_ITEM);
     }
 
     @Override

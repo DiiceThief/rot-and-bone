@@ -21,9 +21,14 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
 
         //item translations
         translationBuilder.add(ModItems.ROTTING_BONE_SICKLE, "Rotting Bone Sickle");
+        translationBuilder.add(ModItems.GRAVE_STEEL_SICKLE, "Grave Steel Sickle");
+
         translationBuilder.add(ModItems.SIMPLE_CATALYST, "Simple Catalyst");
+
         translationBuilder.add(ModItems.ROTTING_BONE, "Rotting Bone");
         translationBuilder.add(ModItems.BRITTLE_FLESH, "Brittle Flesh");
+
+        translationBuilder.add(ModItems.GRAVE_STEEL_INGOT, "Grave Steel Ingot");
 
         //block translations
         translationBuilder.add(ModBlocks.GRAVESOIL, "Gravesoil");

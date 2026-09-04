@@ -31,11 +31,18 @@ public class ModItems {
     public static final Item ROTTING_BONE_SICKLE = register("rotting_bone_sickle",
             Item::new, new Item.Properties().sword(ModToolMaterials.ROTTING_BONE_MATERIAL,
                     4.5F, -2.8F));
+    public static final Item GRAVE_STEEL_SICKLE = register("grave_steel_sickel",
+            Item::new, new Item.Properties().sword(ModToolMaterials.GRAVE_STEEL_MATERIAL,
+                    4.5F, -2.8F));
 
     //spell materials
     public static final Item ROTTING_BONE = register("rotting_bone",
             Item::new, new Item.Properties());
     public static final Item BRITTLE_FLESH = register("brittle_flesh",
+            Item::new, new Item.Properties());
+
+    //non spell materials
+    public static final Item GRAVE_STEEL_INGOT = register("grave_steel_ingot",
             Item::new, new Item.Properties());
 
     //catalysts

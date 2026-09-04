@@ -7,17 +7,23 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
 import net.tinydiicethief.rot_and_bone.RotAndBone;
+import net.tinydiicethief.rot_and_bone.datagen.ModItemTagProvider;
 
 public class ModToolMaterials {
-    public static final TagKey<Item> REPAIRS_ROTTING_BONE_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(),
-            Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "repairs_rotting_bone_armor"));
-
     public static final ToolMaterial ROTTING_BONE_MATERIAL = new ToolMaterial(
             BlockTags.INCORRECT_FOR_COPPER_TOOL,
             160,
             4.5F,
             1.0F,
             9,
-            ModToolMaterials.REPAIRS_ROTTING_BONE_ARMOR
+            ModItemTagProvider.REPAIRS_ROTTING_BONE_ARMOR
+            );
+    public static final ToolMaterial GRAVE_STEEL_MATERIAL = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_IRON_TOOL,
+            400,
+            4.5F,
+            1.3F,
+            9,
+            ModItemTagProvider.REPAIRS_GRAVE_STEEL_ARMOR
             );
 }
