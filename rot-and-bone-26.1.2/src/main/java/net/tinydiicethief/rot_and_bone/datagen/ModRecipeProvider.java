@@ -9,8 +9,10 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -46,6 +48,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("multi_bench")
                         .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
                         .save(output);
+                shaped(RecipeCategory.COMBAT, ModItems.GRAVE_STEEL_SICKLE, 1)
+                        .pattern("##")
+                        .pattern(" S")
+                        .pattern(" S")
+                        .define('#', ModItems.GRAVE_STEEL_INGOT)
+                        .define('S', Items.STICK)
+                        .group("multi_bench")
+                        .unlockedBy(getHasName(ModItems.GRAVE_STEEL_INGOT), has(ModItems.GRAVE_STEEL_INGOT))
+                        .save(output);
 
                 //Shapeless Recipe List
                 shapeless(RecipeCategory.MISC, ModItems.BRITTLE_FLESH)
@@ -60,6 +71,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.BONE), has(Items.BONE))
                         .unlockedBy(getHasName(Items.ROTTEN_FLESH), has(Items.ROTTEN_FLESH))
                         .save(output);
+
+                //smelting recipes
+                oreSmelting(
+                        List.of(ModItems.RAW_GRAVE_STEEL),
+                        RecipeCategory.MISC,
+                        CookingBookCategory.MISC,
+                        ModItems.GRAVE_STEEL_INGOT,
+                        0.1f,
+                        300,
+                        "rot_and_bone"
+                );
             }
         };
     }

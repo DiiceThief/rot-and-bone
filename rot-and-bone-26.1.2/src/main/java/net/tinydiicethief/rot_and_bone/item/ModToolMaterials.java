@@ -22,7 +22,7 @@ public class ModToolMaterials {
             BlockTags.INCORRECT_FOR_IRON_TOOL,
             400,
             4.5F,
-            1.3F,
+            2F,
             9,
             ModItemTagProvider.REPAIRS_GRAVE_STEEL_ARMOR
             );

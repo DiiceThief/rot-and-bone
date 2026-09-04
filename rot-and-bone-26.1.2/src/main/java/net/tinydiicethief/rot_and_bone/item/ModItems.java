@@ -44,6 +44,8 @@ public class ModItems {
     //non spell materials
     public static final Item GRAVE_STEEL_INGOT = register("grave_steel_ingot",
             Item::new, new Item.Properties());
+    public static final Item RAW_GRAVE_STEEL = register("raw_grave_steel",
+            Item::new, new Item.Properties());
 
     //catalysts
     public static final Item SIMPLE_CATALYST = register("simple_catalyst",

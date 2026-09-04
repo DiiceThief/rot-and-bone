@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "multi_bench",
+  "key": {
+    "#": "rot_and_bone:grave_steel_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "##",
+    " S",
+    " S"
+  ],
+  "result": {
+    "id": "rot_and_bone:grave_steel_sickle"
+  }
+}

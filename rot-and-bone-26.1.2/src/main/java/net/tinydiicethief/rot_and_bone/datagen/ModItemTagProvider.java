@@ -22,6 +22,7 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        //Mod Item Tags
         valueLookupBuilder(SICKLES)
                 .add(ModItems.ROTTING_BONE_SICKLE)
                 .add(ModItems.GRAVE_STEEL_SICKLE)
@@ -32,7 +33,7 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.ROTTING_BONE)
                 .setReplace(true);}
 
-    //tags
+    //mod specific tags
     public static final TagKey<Item> SICKLES = TagKey.create(Registries.ITEM,
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "sickles"));
     public static final TagKey<Item> DECAYED_ITEMS = TagKey.create(Registries.ITEM,
@@ -42,5 +43,4 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "repairs_rotting_bone_armor"));
     public static final TagKey<Item> REPAIRS_GRAVE_STEEL_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(),
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "repairs_grave_steel_armor"));
-
 }
