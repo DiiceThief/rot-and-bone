@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         //non spell materials
         itemModelGenerators.generateFlatItem(ModItems.GRAVE_STEEL_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.RAW_GRAVE_STEEL, ModelTemplates.FLAT_ITEM);
     }
 
     @Override
