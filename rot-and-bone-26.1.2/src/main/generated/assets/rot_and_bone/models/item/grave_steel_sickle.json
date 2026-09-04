@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "rot_and_bone:item/grave_steel_sickel"
+    "layer0": "rot_and_bone:item/grave_steel_sickle"
   }
 }
