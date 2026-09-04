@@ -30,6 +30,7 @@ public class ModItemGroups {
 
                 //sickles
                 output.accept(ModItems.ROTTING_BONE_SICKLE);
+                output.accept(ModItems.GRAVE_STEEL_SICKLE);
 
                 //catalysts
                 output.accept(ModItems.SIMPLE_CATALYST);
