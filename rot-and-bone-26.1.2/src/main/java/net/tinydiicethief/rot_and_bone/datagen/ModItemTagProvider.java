@@ -17,7 +17,10 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                               CompletableFuture<HolderLookup.Provider>
                                       registryLookupFuture) {
         super(output, registryLookupFuture);
+    }
 
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
         valueLookupBuilder(SICKLES)
                 .add(ModItems.ROTTING_BONE_SICKLE)
                 .setReplace(true);
@@ -25,12 +28,7 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(DECAYED_ITEMS)
                 .add(ModItems.BRITTLE_FLESH)
                 .add(ModItems.ROTTING_BONE)
-                .setReplace(true);
-    }
-
-    @Override
-    protected void addTags(HolderLookup.Provider provider) {
-    }
+                .setReplace(true);}
     public static final TagKey<Item> SICKLES = TagKey.create(Registries.ITEM,
             Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, "sickles"));
     public static final TagKey<Item> DECAYED_ITEMS = TagKey.create(Registries.ITEM,
