@@ -38,5 +38,18 @@ public class ModLootTableModifiers {
                     .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 2)).build());
             builder.pool(poolBuilder.build());
         }
+        if(key.identifier().equals(Identifier.withDefaultNamespace("entities/skeleton"))) {
+            LootPool.Builder poolBuilder = LootPool.lootPool()
+                    .setRolls(ConstantValue.exactly(1))
+                    .when(LootItemEntityPropertyCondition.hasProperties(LootContext.EntityTarget.ATTACKING_PLAYER,
+                                    EntityPredicate.Builder.entity().equipment(EntityEquipmentPredicate.Builder
+                                            .equipment().mainhand(ItemPredicate.Builder.item()
+                                                    .of(provider.lookupOrThrow(Registries.ITEM),
+                                                            ModItemTagProvider.SICKLES))))
+                            .build())
+                    .add(LootItem.lootTableItem(ModItems.ROTTING_BONE))
+                    .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 2)).build());
+            builder.pool(poolBuilder.build());
+        }
     }
 }
