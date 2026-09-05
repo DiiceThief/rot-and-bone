@@ -5,7 +5,7 @@ import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 import org.ladysnake.cca.api.v8.component.CardinalComponent;
 
-public class corruptioncomponent implements CardinalComponent {
+public class corruptionComponent implements CardinalComponent {
 
     private int corruption = 0;
     private int overflowTimer = 0;

@@ -33,6 +33,6 @@ public class RotAndBone implements ModInitializer {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
 				ModItemGroups.ROT_AND_BONE_TAB_KEY, ModItemGroups.ROT_AND_BONE_TAB);
 
-		LOGGER.info("Testing Message");
+		LOGGER.info("The Zombies are coming.");
 	}
 }
