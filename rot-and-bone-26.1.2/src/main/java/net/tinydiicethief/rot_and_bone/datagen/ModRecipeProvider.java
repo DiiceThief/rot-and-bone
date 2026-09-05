@@ -82,6 +82,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "rot_and_bone"
                 );
+                oreBlasting(
+                        List.of(ModItems.RAW_GRAVE_STEEL),
+                        RecipeCategory.MISC,
+                        CookingBookCategory.MISC,
+                        ModItems.GRAVE_STEEL_INGOT,
+                        0.1f,
+                        150,
+                        "rot_and_bone"
+                );
             }
         };
     }

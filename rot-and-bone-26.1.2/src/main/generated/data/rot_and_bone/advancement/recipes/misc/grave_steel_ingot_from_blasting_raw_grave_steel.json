@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_grave_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rot_and_bone:raw_grave_steel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rot_and_bone:grave_steel_ingot_from_blasting_raw_grave_steel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_grave_steel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rot_and_bone:grave_steel_ingot_from_blasting_raw_grave_steel"
+    ]
+  }
+}

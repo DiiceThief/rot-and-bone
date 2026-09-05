@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "rot_and_bone",
+  "ingredient": "rot_and_bone:raw_grave_steel",
+  "result": {
+    "id": "rot_and_bone:grave_steel_ingot"
+  }
+}

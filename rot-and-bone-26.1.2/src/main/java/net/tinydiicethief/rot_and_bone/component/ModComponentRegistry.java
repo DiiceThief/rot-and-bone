@@ -18,8 +18,8 @@ import org.ladysnake.cca.internal.base.ComponentRegistrationInitializer;
 import java.util.function.Predicate;
 
 public class ModComponentRegistry implements ComponentRegistrationInitializer {
-    public static final ComponentKey<corruptioncomponent> CORRUPTION =
+    public static final ComponentKey<corruptionComponent> CORRUPTION =
             ComponentRegistry.getOrCreate
                     (Identifier.fromNamespaceAndPath("rotandbone", "corruptioncomponent"),
-                            corruptioncomponent.class);
+                            corruptionComponent.class);
 }
