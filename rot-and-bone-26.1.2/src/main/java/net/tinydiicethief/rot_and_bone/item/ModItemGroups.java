@@ -26,6 +26,7 @@ public class ModItemGroups {
                 //Items
                 output.accept(ModItems.ROTTING_BONE);
                 output.accept(ModItems.BRITTLE_FLESH);
+                output.accept(ModItems.RAW_GRAVE_STEEL);
                 output.accept(ModItems.GRAVE_STEEL_INGOT);
 
                 //sickles
