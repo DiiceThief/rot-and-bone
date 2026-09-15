@@ -37,6 +37,7 @@ public class ModItemGroups {
                 output.accept(ModItems.SIMPLE_CATALYST);
 
                 //Blocks
+                output.accept(ModBlocks.RITUAL_TABLE);
                 output.accept(ModBlocks.GRAVESOIL);
                 output.accept(ModBlocks.GRAVEBRICKS);
                 output.accept(ModBlocks.GRAVEBRICK_STAIRS);

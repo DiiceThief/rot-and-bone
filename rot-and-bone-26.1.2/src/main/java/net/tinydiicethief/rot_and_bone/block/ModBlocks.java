@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.tinydiicethief.rot_and_bone.RotAndBone;
+import net.tinydiicethief.rot_and_bone.block.custom.RitualTableBlock;
 
 import java.util.function.Function;
 
@@ -39,6 +40,11 @@ public class ModBlocks {
     private static ResourceKey<Item> keyOfItem(String name) {
         return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(RotAndBone.MOD_ID, name));
     }
+    public static final Block RITUAL_TABLE = register("ritual_table",
+            RitualTableBlock::new, BlockBehaviour.Properties.of()
+                    .strength(3.0f),
+            true);
+
     public static final Block GRAVESOIL = register("gravesoil",
             Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.ROOTED_DIRT),
@@ -47,40 +53,40 @@ public class ModBlocks {
     //Gravebricks
     public static final Block GRAVEBRICKS = register("gravebricks",
             Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block GRAVEBRICK_STAIRS = register("gravebrick_stairs",
             settings -> new StairBlock(GRAVEBRICKS.defaultBlockState(), settings),
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block GRAVEBRICK_SLAB = register("gravebrick_slab",
             SlabBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block GRAVEBRICK_WALL = register("gravebrick_wall",
             WallBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block CHISELED_GRAVEBRICKS = register("chiseled_gravebricks",
             Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
 
     //Cracked Gravebricks
     public static final Block CRACKED_GRAVEBRICKS = register("cracked_gravebricks",
             Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block CRACKED_GRAVEBRICK_STAIRS = register("cracked_gravebrick_stairs",
             settings -> new StairBlock(CRACKED_GRAVEBRICKS.defaultBlockState(), settings),
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block CRACKED_GRAVEBRICK_SLAB = register("cracked_gravebrick_slab",
             SlabBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
     public static final Block CRACKED_GRAVEBRICK_WALL = register("cracked_gravebrick_wall",
             WallBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS),
+            BlockBehaviour.Properties.of().sound(SoundType.NETHER_BRICKS).requiresCorrectToolForDrops(),
             true);
 }

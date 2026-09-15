@@ -32,6 +32,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RAW_GRAVE_STEEL, "Raw Grave Steel");
 
         //block translations
+        translationBuilder.add(ModBlocks.RITUAL_TABLE, "Ritual Table");
         translationBuilder.add(ModBlocks.GRAVESOIL, "Gravesoil");
 
         translationBuilder.add(ModBlocks.GRAVEBRICKS, "Gravebricks");
