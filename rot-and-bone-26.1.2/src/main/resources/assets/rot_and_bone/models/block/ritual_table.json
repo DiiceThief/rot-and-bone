@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "rot_and_bone:block/ritual_table",
-		"particle": "ritual_table"
+		"particle": "rot_and_bone:block/ritual_table"
 	},
 	"elements": [
 		{
