@@ -14,5 +14,6 @@ public class RotAndBoneDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
 	}
 }
