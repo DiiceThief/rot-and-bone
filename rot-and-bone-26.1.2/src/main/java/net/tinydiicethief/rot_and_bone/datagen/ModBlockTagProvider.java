@@ -34,5 +34,20 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.GRAVESOIL);
+
+        valueLookupBuilder(BlockTags.WALLS)
+                .add(ModBlocks.GRAVEBRICK_WALL)
+                .add(ModBlocks.CRACKED_GRAVEBRICK_WALL)
+                .add(ModBlocks.MAUSOLEUM_BRICKS);
+
+        valueLookupBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.GRAVEBRICK_STAIRS)
+                .add(ModBlocks.CRACKED_GRAVEBRICK_STAIRS)
+                .add(ModBlocks.MAUSOLEUM_BRICK_STAIRS);
+
+        valueLookupBuilder(BlockTags.SLABS)
+                .add(ModBlocks.GRAVEBRICK_SLAB)
+                .add(ModBlocks.CRACKED_GRAVEBRICK_SLAB)
+                .add(ModBlocks.MAUSOLEUM_BRICK_SLAB);
     }
 }
