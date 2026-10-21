@@ -11,6 +11,10 @@
     "rot_and_bone:mausoleum_bricks",
     "rot_and_bone:mausoleum_brick_stairs",
     "rot_and_bone:mausoleum_brick_slab",
-    "rot_and_bone:mausoleum_brick_wall"
+    "rot_and_bone:mausoleum_brick_wall",
+    "rot_and_bone:cracked_mausoleum_bricks",
+    "rot_and_bone:cracked_mausoleum_brick_stairs",
+    "rot_and_bone:cracked_mausoleum_brick_slab",
+    "rot_and_bone:cracked_mausoleum_brick_wall"
   ]
 }

@@ -55,6 +55,11 @@ public class ModItemGroups {
                 output.accept(ModBlocks.MAUSOLEUM_BRICK_STAIRS);
                 output.accept(ModBlocks.MAUSOLEUM_BRICK_SLAB);
                 output.accept(ModBlocks.MAUSOLEUM_BRICK_WALL);
+
+                output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICKS);
+                output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS);
+                output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB);
+                output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL);
             })
             .build();
 }

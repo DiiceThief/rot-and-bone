@@ -120,4 +120,25 @@ public class ModBlocks {
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
                     .strength(2.0f),
             true);
+
+    public static final Block CRACKED_MAUSOLEUM_BRICKS = register("cracked_mausoleum_bricks",
+            Block::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
+                    .strength(2.0f),
+            true);
+    public static final Block CRACKED_MAUSOLEUM_BRICK_STAIRS = register("cracked_mausoleum_brick_stairs",
+            settings -> new StairBlock(CRACKED_MAUSOLEUM_BRICKS.defaultBlockState(), settings),
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
+                    .strength(2.0f),
+            true);
+    public static final Block CRACKED_MAUSOLEUM_BRICK_SLAB = register("cracked_mausoleum_brick_slab",
+            SlabBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
+                    .strength(2.0f),
+            true);
+    public static final Block CRACKED_MAUSOLEUM_BRICK_WALL = register("cracked_mausoleum_brick_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
+                    .strength(2.0f),
+            true);
 }

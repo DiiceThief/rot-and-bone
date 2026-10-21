@@ -31,4 +31,12 @@ public class ModBlockFamilies {
                     .slab(ModBlocks.MAUSOLEUM_BRICK_SLAB)
                     .wall(ModBlocks.MAUSOLEUM_BRICK_WALL)
                     .getFamily();
+
+    //cracked Mausoleum Family
+    public static final BlockFamily CRACKED_MAUSOLEUM_FAMILY =
+            new BlockFamily.Builder(ModBlocks.CRACKED_MAUSOLEUM_BRICKS)
+                    .stairs(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS)
+                    .slab(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB)
+                    .wall(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL)
+                    .getFamily();
 }

@@ -27,7 +27,11 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.MAUSOLEUM_BRICKS)
                 .add(ModBlocks.MAUSOLEUM_BRICK_STAIRS)
                 .add(ModBlocks.MAUSOLEUM_BRICK_SLAB)
-                .add(ModBlocks.MAUSOLEUM_BRICK_WALL);
+                .add(ModBlocks.MAUSOLEUM_BRICK_WALL)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICKS)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL);
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.RITUAL_TABLE);
@@ -38,16 +42,19 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.WALLS)
                 .add(ModBlocks.GRAVEBRICK_WALL)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_WALL)
-                .add(ModBlocks.MAUSOLEUM_BRICK_WALL);
+                .add(ModBlocks.MAUSOLEUM_BRICK_WALL)
+                .add(ModBlocks.CRACKED_GRAVEBRICK_WALL);
 
         valueLookupBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.GRAVEBRICK_STAIRS)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_STAIRS)
-                .add(ModBlocks.MAUSOLEUM_BRICK_STAIRS);
+                .add(ModBlocks.MAUSOLEUM_BRICK_STAIRS)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS);
 
         valueLookupBuilder(BlockTags.SLABS)
                 .add(ModBlocks.GRAVEBRICK_SLAB)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_SLAB)
-                .add(ModBlocks.MAUSOLEUM_BRICK_SLAB);
+                .add(ModBlocks.MAUSOLEUM_BRICK_SLAB)
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB);
     }
 }
