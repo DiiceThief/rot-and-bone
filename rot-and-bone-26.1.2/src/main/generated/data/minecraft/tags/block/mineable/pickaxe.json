@@ -7,6 +7,10 @@
     "rot_and_bone:cracked_gravebricks",
     "rot_and_bone:cracked_gravebrick_stairs",
     "rot_and_bone:cracked_gravebrick_slab",
-    "rot_and_bone:cracked_gravebrick_wall"
+    "rot_and_bone:cracked_gravebrick_wall",
+    "rot_and_bone:mausoleum_bricks",
+    "rot_and_bone:mausoleum_brick_stairs",
+    "rot_and_bone:mausoleum_brick_slab",
+    "rot_and_bone:mausoleum_brick_wall"
   ]
 }

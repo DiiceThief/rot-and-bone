@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rot_and_bone:block/mausoleum_brick_slab"
+    },
+    "type=double": {
+      "model": "rot_and_bone:block/mausoleum_bricks"
+    },
+    "type=top": {
+      "model": "rot_and_bone:block/mausoleum_brick_slab_top"
+    }
+  }
+}

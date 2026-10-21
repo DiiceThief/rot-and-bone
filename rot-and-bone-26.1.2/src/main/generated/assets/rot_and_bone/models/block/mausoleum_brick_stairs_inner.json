@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rot_and_bone:block/mausoleum_bricks",
+    "side": "rot_and_bone:block/mausoleum_bricks",
+    "top": "rot_and_bone:block/mausoleum_bricks"
+  }
+}

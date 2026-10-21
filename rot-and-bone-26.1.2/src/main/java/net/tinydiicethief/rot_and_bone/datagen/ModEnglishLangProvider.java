@@ -46,6 +46,11 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICK_SLAB, "Cracked Gravebrick Slab");
         translationBuilder.add(ModBlocks.CRACKED_GRAVEBRICK_WALL, "Cracked Gravebrick Wall");
 
+        translationBuilder.add(ModBlocks.MAUSOLEUM_BRICKS, "Mausoleum Bricks");
+        translationBuilder.add(ModBlocks.MAUSOLEUM_BRICK_STAIRS, "Mausoleum Brick Stairs");
+        translationBuilder.add(ModBlocks.MAUSOLEUM_BRICK_SLAB, "Mausoleum Brick Slab");
+        translationBuilder.add(ModBlocks.MAUSOLEUM_BRICK_WALL, "Mausoleum Brick Wall");
+
         //creative mode tab
         translationBuilder.add(ModItemGroups.ROT_AND_BONE_TAB_KEY, "Rot And Bone");
     }

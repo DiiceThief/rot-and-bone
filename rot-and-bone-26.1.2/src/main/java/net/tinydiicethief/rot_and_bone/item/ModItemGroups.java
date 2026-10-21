@@ -39,15 +39,22 @@ public class ModItemGroups {
                 //Blocks
                 output.accept(ModBlocks.RITUAL_TABLE);
                 output.accept(ModBlocks.GRAVESOIL);
+
                 output.accept(ModBlocks.GRAVEBRICKS);
                 output.accept(ModBlocks.GRAVEBRICK_STAIRS);
                 output.accept(ModBlocks.GRAVEBRICK_SLAB);
                 output.accept(ModBlocks.GRAVEBRICK_WALL);
                 output.accept(ModBlocks.CHISELED_GRAVEBRICKS);
+
                 output.accept(ModBlocks.CRACKED_GRAVEBRICKS);
                 output.accept(ModBlocks.CRACKED_GRAVEBRICK_STAIRS);
                 output.accept(ModBlocks.CRACKED_GRAVEBRICK_SLAB);
                 output.accept(ModBlocks.CRACKED_GRAVEBRICK_WALL);
+
+                output.accept(ModBlocks.MAUSOLEUM_BRICKS);
+                output.accept(ModBlocks.MAUSOLEUM_BRICK_STAIRS);
+                output.accept(ModBlocks.MAUSOLEUM_BRICK_SLAB);
+                output.accept(ModBlocks.MAUSOLEUM_BRICK_WALL);
             })
             .build();
 }

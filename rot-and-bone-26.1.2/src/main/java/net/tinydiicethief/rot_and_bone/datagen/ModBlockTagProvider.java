@@ -23,7 +23,11 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.CRACKED_GRAVEBRICKS)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_STAIRS)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_SLAB)
-                .add(ModBlocks.CRACKED_GRAVEBRICK_WALL);
+                .add(ModBlocks.CRACKED_GRAVEBRICK_WALL)
+                .add(ModBlocks.MAUSOLEUM_BRICKS)
+                .add(ModBlocks.MAUSOLEUM_BRICK_STAIRS)
+                .add(ModBlocks.MAUSOLEUM_BRICK_SLAB)
+                .add(ModBlocks.MAUSOLEUM_BRICK_WALL);
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.RITUAL_TABLE);
