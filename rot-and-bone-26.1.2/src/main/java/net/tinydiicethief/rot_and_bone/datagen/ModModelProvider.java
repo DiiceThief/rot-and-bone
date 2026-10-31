@@ -23,6 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.CRACKED_GRAVEBRICKS)
                 .generateFor(ModBlockFamilies.CRACKED_GRAVEBRICK_FAMILY);
         blockModelGenerators.family(ModBlocks.MAUSOLEUM_BRICKS).generateFor(ModBlockFamilies.MAUSOLEUM_FAMILY);
+        blockModelGenerators.family(ModBlocks.CRACKED_MAUSOLEUM_BRICKS)
+                .generateFor(ModBlockFamilies.CRACKED_MAUSOLEUM_FAMILY);
 
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.RITUAL_TABLE);
 

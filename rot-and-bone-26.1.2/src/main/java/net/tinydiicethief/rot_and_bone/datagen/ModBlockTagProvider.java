@@ -43,7 +43,7 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRAVEBRICK_WALL)
                 .add(ModBlocks.CRACKED_GRAVEBRICK_WALL)
                 .add(ModBlocks.MAUSOLEUM_BRICK_WALL)
-                .add(ModBlocks.CRACKED_GRAVEBRICK_WALL);
+                .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL);
 
         valueLookupBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.GRAVEBRICK_STAIRS)
