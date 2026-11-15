@@ -5,10 +5,13 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.tinydiicethief.rot_and_bone.RotAndBone;
 import net.tinydiicethief.rot_and_bone.block.custom.RitualTableBlock;
 
@@ -141,4 +144,17 @@ public class ModBlocks {
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()
                     .strength(2.0f),
             true);
+
+    //plants
+    public static final Block CRESCENT_FLOWER = register("crescent_flower",
+            settings -> new FlowerBlock(MobEffects.BLINDNESS,0.35f,
+                    settings),
+            BlockBehaviour.Properties.of().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)
+                    .mapColor(MapColor.PLANT).noCollision().instabreak().offsetType(BlockBehaviour.OffsetType.XZ),
+            true);
+
+    //potted plants
+    public static final Block POTTED_CRESCENT_FLOWER = register("potted_crescent_flower",
+            settings -> new FlowerPotBlock(ModBlocks.CRESCENT_FLOWER,
+                    settings), BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_POPPY),true);
 }

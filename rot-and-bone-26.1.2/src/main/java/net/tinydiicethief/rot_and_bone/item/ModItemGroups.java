@@ -60,6 +60,9 @@ public class ModItemGroups {
                 output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS);
                 output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB);
                 output.accept(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL);
+
+                //plants
+                output.accept(ModBlocks.CRESCENT_FLOWER);
             })
             .build();
 }

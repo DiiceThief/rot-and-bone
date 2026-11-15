@@ -27,5 +27,20 @@ public class ModLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.CRACKED_GRAVEBRICK_STAIRS);
         dropSelf(ModBlocks.CRACKED_GRAVEBRICK_SLAB);
         dropSelf(ModBlocks.CRACKED_GRAVEBRICK_WALL);
+
+        dropSelf(ModBlocks.MAUSOLEUM_BRICKS);
+        dropSelf(ModBlocks.MAUSOLEUM_BRICK_STAIRS);
+        dropSelf(ModBlocks.MAUSOLEUM_BRICK_SLAB);
+        dropSelf(ModBlocks.MAUSOLEUM_BRICK_WALL);
+
+        dropSelf(ModBlocks.CRACKED_MAUSOLEUM_BRICKS);
+        dropSelf(ModBlocks.CRACKED_MAUSOLEUM_BRICK_STAIRS);
+        dropSelf(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB);
+        dropSelf(ModBlocks.CRACKED_MAUSOLEUM_BRICK_WALL);
+
+        dropSelf(ModBlocks.CRESCENT_FLOWER);
+
+        //doesn't drop self
+        dropOther(ModBlocks.POTTED_CRESCENT_FLOWER, ModBlocks.CRESCENT_FLOWER);
     }
 }

@@ -28,6 +28,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.RITUAL_TABLE);
 
+        blockModelGenerators.createPlant(ModBlocks.CRESCENT_FLOWER,
+                ModBlocks.POTTED_CRESCENT_FLOWER, BlockModelGenerators.PlantType.NOT_TINTED);
+
     }
 
     @Override

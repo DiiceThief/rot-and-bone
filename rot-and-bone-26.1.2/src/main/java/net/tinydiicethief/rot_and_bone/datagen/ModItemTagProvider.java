@@ -6,9 +6,11 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.tinydiicethief.rot_and_bone.RotAndBone;
+import net.tinydiicethief.rot_and_bone.block.ModBlocks;
 import net.tinydiicethief.rot_and_bone.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -35,6 +37,11 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
         valueLookupBuilder(CATALYSTS)
                 .add(ModItems.SIMPLE_CATALYST)
+                .setReplace(true);
+
+        //plant tags
+        valueLookupBuilder(ItemTags.SMALL_FLOWERS)
+                .add(ModBlocks.CRESCENT_FLOWER.asItem())
                 .setReplace(true);
     }
 

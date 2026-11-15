@@ -56,5 +56,11 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.CRACKED_GRAVEBRICK_SLAB)
                 .add(ModBlocks.MAUSOLEUM_BRICK_SLAB)
                 .add(ModBlocks.CRACKED_MAUSOLEUM_BRICK_SLAB);
+
+        valueLookupBuilder(BlockTags.BEE_ATTRACTIVE)
+                .add(ModBlocks.CRESCENT_FLOWER);
+
+        valueLookupBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.CRESCENT_FLOWER);
     }
 }
